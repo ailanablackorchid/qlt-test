@@ -1,4 +1,30 @@
-// @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap);
+
+$montserrat: 'Montserrat', sans-serif;   
+$arial: 'Arial', sans-serif;
+
+
+@mixin space($pd-top, $pd-right, $pd-down, $pd-left) {
+	margin: 20px auto;
+	padding: $pd-top $pd-right $pd-down $pd-left;
+}
+
+body{
+	font-family: $arial;
+	font-size: 1rem;
+}
+
+.landing-label{
+	font-family: $montserrat;
+	font-size: 2rem;
+	@include space(130px, 0, 0, 0);	
+}
+
+.landing-text{
+	font-size: 1rem;
+	@include space(0, 0, 0, 0);
+}
 
 .my-col{
 	border: 1px red solid;
@@ -10,4 +36,34 @@
 
 .my-container{
 	border: 1px green dashed;
+}
+
+@include media-breakpoint-up(sm) {
+  body {
+    font-size: 1.2rem;
+  }
+  .landing-label{
+  	font-size: 3rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  body {
+    font-size: 1.4rem;
+  }
+  .landing-label{
+  	font-size: 3.5rem;
+  }
+  .landing-text{
+  	font-size: 1.5rem;
+  }  
+}
+
+@include media-breakpoint-up(lg) {
+  body {
+    font-size: 1.6rem;
+  }
+  .landing-label{
+  	font-size: 4rem;
+  }
 }
