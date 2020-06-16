@@ -7165,35 +7165,20 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: "Arial", sans-serif;
   font-size: 1rem;
+  background-color: transparent;
   max-width: 100%;
   overflow-x: hidden; }
-
-.navbar {
-  background-color: transparent !important;
-  color: #8C8C8C !important;
-  font-size: 1rem !important; }
-
-.main-btn {
-  background: #2DA688;
-  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2), -4px -4px 12px rgba(255, 255, 255, 0.2) !important;
-  border-radius: 24px !important; }
-
-#search-btn {
-  background: #2DA688;
-  color: #FFFFFF;
-  font-family: "Arial", sans-serif;
-  margin: 20px auto; }
 
 .landing-label {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  margin: 10px auto;
-  padding: 100px 0 0 0; }
+  margin: 20px auto;
+  padding: 130px 0 0 0; }
 
 .landing-text {
   font-size: 1rem;
-  margin: 10px auto;
-  padding: 0 50px 0 50px; }
+  margin: 20px auto;
+  padding: 0 0 0 0; }
 
 .back-img-landing {
   pointer-events: none;
@@ -7208,9 +7193,9 @@ body {
   left: -5vw; }
 
 #img2 {
-  width: 250%;
-  bottom: -8vh;
-  left: -30vw; }
+  width: 200%;
+  bottom: 0;
+  left: -15vw; }
 
 #img3 {
   width: 200%;
@@ -7218,57 +7203,18 @@ body {
   right: -15vw; }
 
 #img4 {
-  width: 250%;
-  bottom: -6vh;
-  right: -20vw; }
+  width: 200%;
+  bottom: 0;
+  right: -10vw; }
 
-.step-text-landing {
-  font-family: "Arial", sans-serif;
-  font-size: 0.8rem;
-  line-height: 0.9rem;
-  margin: 0;
-  text-align: left; }
+.my-col {
+  border: 1px red solid; }
 
-.icon-landing {
-  display: block;
-  margin: auto; }
+.my-row {
+  border: 1px blue dotted; }
 
-.numbers-landing {
-  margin: 0;
-  text-align: end; }
-
-.row-numbers {
-  padding: 5% 0 5% 0; }
-
-.dropdown-landing {
-  margin: 10px auto;
-  padding: 0 0 0 0;
-  background: #FFFFFF;
-  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2), -4px -4px 12px rgba(255, 255, 255, 0.2); }
-
-.dropdown-text-landing {
-  font-size: 1rem;
-  text-align: end;
-  margin: 10px auto;
-  padding: 0 1rem 0 1rem; }
-
-.btn-secondary {
-  background: #FFFFFF !important;
-  color: #2F2F2F !important;
-  border: none !important; }
-
-.dropdown-round {
-  background: #FFFFFF;
-  border-bottom-left-radius: 24px !important;
-  border-top-left-radius: 24px !important; }
-
-.dropdown-round-toggle {
-  background: #FFFFFF;
-  border-bottom-right-radius: 24px !important;
-  border-top-right-radius: 24px !important; }
-
-.dropdown-icon {
-  padding: 5px; }
+.my-container {
+  border: 1px green dashed; }
 
 @media (min-width: 576px) {
   body {

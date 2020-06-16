@@ -15,8 +15,8 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<a href="#" class="navbar-brand">Активный гражданин</a>
+<nav class="navbar navbar-expand-lg navbar-light">
+	<!-- <a href="#" class="navbar-brand">Активный гражданин</a> -->
 	<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -42,9 +42,9 @@
 
 <div class="container my-container">
 	<div class="row my-row">
-		<div class="col-md-1 col-lg-2 my-col d-none d-md-block">
-			<img src="./img/img1.svg">
-			<img src="./img/img2.svg">
+		<div class="col-left-landing col-md-1 col-lg-2 my-col d-none d-md-block">
+			<img class="back-img-landing" id="img1" src="./img/img1.svg">
+			<img class="back-img-landing" id="img2" src="./img/img2.svg">
 		</div>
 		<div class="col-xs-12 col-md-10 col-lg-8 justify-content-center my-col">
 
@@ -56,57 +56,58 @@
 				<p class="text-center landing-text">Exercitation ex aliquip id laborum labore nostrud cillum in cillum magna nisi cupidatat dolor enim. Veniam est ea velit sit officia minim ut. Nostrud culpa aliquip ipsum ut commodo velit. Ut proident excepteur ullamco tempor id nostrud velit aute velit velit quis consequat. Sunt veniam ullamco Lorem enim.</p>
 			</div>
 			<div class="row justify-content-center my-row">
-				<h5>Как это работает?</h5>
+				<h5 class="text-center font-weight-bold landing-text">Как это работает?</h5>
 			</div>
-			<div class="row justify-content-center my-row">
+			<div class="row align-items-center row-numbers my-row">
 				<div class="col-12 col-sm-4 my-col">
-					<div class="row my-row">
-						<div class="col-12 col-sm-6 col-md-3 my-col">
-							<h2>1</h2>
+					<div class="row align-items-center my-row">
+						<div class="col-12 col-sm-6 col-md-2 my-col pl-0 pr-0">
+							<h2 class="numbers-landing">1</h2>
 						</div>
-						<div class="col-12 col-sm-6 col-md-3 my-col">
-							<img src="./img/map-icon.svg">
+						<div class="col-12 col-sm-6 col-md-2 my-col pl-0 pr-0">
+							<img class="icon-landing" src="./img/map-icon.svg">
 						</div>
-						<div class="col-12 col-md-6 my-col">
-							<p>Aute et culpa veniam ipsum laborum</p>
+						<div class="col-12 col-md-8 my-col pl-0 pr-0">
+							<p class="step-text-landing">Aute et culpa veniam ipsum laborum</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-sm-4 my-col">
-					<div class="row my-row">
-						<div class="col-12 col-sm-6 col-md-3 my-col">
-							<h2>2</h2>
+					<div class="row align-items-center my-row">
+						<div class="col-12 col-sm-6 col-md-2 my-col pl-0 pr-0">
+							<h2 class="numbers-landing">2</h2>
 						</div>
-						<div class="col-12 col-sm-6 col-md-3 my-col">	
-							<img src="./img/map-pin-icon.svg">
+						<div class="col-12 col-sm-6 col-md-2 my-col pl-0 pr-0">	
+							<img class="icon-landing" src="./img/map-pin-icon.svg">
 						</div>
-						<div class="col-12 col-md-6 my-col">	
-							<p>Aute et culpa veniam ipsum laborum</p>
+						<div class="col-12 col-md-8 my-col pl-0 pr-0">	
+							<p class="step-text-landing">Aute et culpa veniam ipsum laborum</p>
 						</div>	
 					</div>
 				</div>		
 				<div class="col-12 col-sm-4 my-col">
-					<div class="row my-row">
-						<div class="col-12 col-sm-6 col-md-3 my-col">
-							<h2>3</h2>
+					<div class="row align-items-center my-row">
+						<div class="col-12 col-sm-6 col-md-2 my-col pl-0 pr-0">
+							<h2 class="numbers-landing">3</h2>
 						</div>
-						<div class="col-12 col-sm-6 col-md-3 my-col">
-							<img src="./img/users-icon.svg">
+						<div class="col-12 col-sm-6 col-md-2 my-col pl-0 pr-0">
+							<img class="icon-landing" src="./img/users-icon.svg">
 						</div>
-						<div class="col-12 col-md-6 my-col">
-							<p>Aute et culpa veniam ipsum laborum</p>
+						<div class="col-12 col-md-8 my-col pl-0 pr-0">
+							<p class="step-text-landing">Aute et culpa veniam ipsum laborum</p>
 						</div>
 					</div>			
 				</div>
 			</div>
 			<div class="row justify-content-center my-row">
-				<div class="col-12 col-sm-8 my-col">
-					<h5>Я хочу узнать о проектах в</h5>
+				<div class="col-12 col-sm-8 my-col align-items-center pl-0 pr-0">
+					<h5 class="text-right font-weight-bold dropdown-text-landing">Я хочу узнать о проектах в</h5>
 				</div>
 				<div class="col-12 col-sm-4 my-col">	
-					<div class="btn-group">
-	    				<button type="button" class="btn btn-secondary">г. Астана</button>
-	    				<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+					<div class="btn-group rounded-pill dropdown-landing">
+	    				<button type="button" class="btn btn-secondary dropdown-round">
+	    					<img class="dropdown-icon" src="./img/map-pin-icon.svg">г. Астана</button>
+	    				<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split dropdown-round-toggle" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
 	      					<span class="sr-only">Toggle Dropdown</span>
 	    				</button>
 					    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
@@ -119,14 +120,13 @@
   				</div>
 			</div>
 			<div class="row justify-content-center my-row">
-				<button>Искать!</button>
+				<button type="button" class="btn main-btn" id="search-btn">Искать!</button>
 			</div>
 		
-		
 		</div>
-		<div class="col-md-1 col-lg-2 my-col d-none d-md-block">
-			<img src="./img/img3.svg">
-			<img src="./img/img4.svg">
+		<div class="col-right-landing col-md-1 col-lg-2 my-col d-none d-md-block">
+			<img class="back-img-landing" id="img3" src="./img/img3.svg">
+			<img class="back-img-landing" id="img4" src="./img/img4.svg">
 		</div>
 	</div>
 </div>
