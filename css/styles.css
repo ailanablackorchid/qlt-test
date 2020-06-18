@@ -7274,6 +7274,9 @@ body {
 .dropdown-landing-col {
   text-align: center; }
 
+#mapid {
+  height: 100vh; }
+
 @media (min-width: 576px) {
   body {
     font-size: 1.2rem; }
