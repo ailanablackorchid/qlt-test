@@ -150,14 +150,59 @@ body{
 }
 
 #mapid {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+	// position: absolute;
+	// z-index:-10;
+	// top: 0;
+	// right: 0;
+	// bottom: 0;
+	// left: 0;
 	height: 100vh;
 }
 
+.left-column-map{
+	// position: absolute;
+	// top: 0;
+	// left: 0;
+	height: 100vh;
+	// z-index:1;
+}
+
+// .map-container{
+// 	margin: 0 !important;
+// 	padding: 0 !important;
+// }
+
+.second-navbar{
+	background-color: #FDC96A !important;
+	// color: #fff;
+	font-size: 1rem;
+
+	.navbar-brand{
+		font-family: $montserrat;
+		font-weight: bold;
+		color: #fff !important;
+/* identical to box height */
+	}
+}
+
+.event-card{
+	border: none !important;
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1), -4px -4px 12px rgba(228, 228, 228, 0.1);
+	border-radius: 10px;
+	// width: 420px !important;
+	// min-width: 420px !important;
+	// max-width: 420px !important;
+
+.card-color{
+	background-color: #C8372D;
+	border-radius: 10px 0px 0px 10px;
+	width: 8px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+}
 
 // .my-col{
 // 	border: 1px red solid;

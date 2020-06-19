@@ -7277,6 +7277,31 @@ body {
 #mapid {
   height: 100vh; }
 
+.left-column-map {
+  height: 100vh; }
+
+.second-navbar {
+  background-color: #FDC96A !important;
+  font-size: 1rem; }
+  .second-navbar .navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #fff !important;
+    /* identical to box height */ }
+
+.event-card {
+  border: none !important;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1), -4px -4px 12px rgba(228, 228, 228, 0.1);
+  border-radius: 10px; }
+  .event-card .card-color {
+    background-color: #C8372D;
+    border-radius: 10px 0px 0px 10px;
+    width: 8px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px; }
+
 @media (min-width: 576px) {
   body {
     font-size: 1.2rem; }

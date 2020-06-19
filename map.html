@@ -23,11 +23,103 @@
 </head>
 
 <body>
+	<nav class="navbar second-navbar navbar-expand-lg navbar-light">
+		<a href="#" class="navbar-brand">
+			<img class="" src="./img/navbar-icon.svg">
+			Активный гражданин
+		</a>
+		<ul href="#" class="navbar-nav mr-auto">	
+			<li class="nav-item"><a href="" class="nav-link">назад</a></li>
+		</ul>
+	</nav>
 
-	<div id="mapid"></div>
-	<div class="container">
-		
+	<div class="container-fluid b-0 pr-0 m-0">
+		<div class="row">
+			<div class="col-4 p-4 left-column-map overflow-auto">
+
+				<div class="row">
+					<div class="m-2">Search</div>
+				</div>
+				<div class="row align-items-center m-2">
+					<div class="col col-sm-4 pl-0 pr-0">
+						<h5 class="">Выбор города:</h5>
+					</div>
+					<div class="col col-sm-8">
+						<div class="btn-group rounded-pill dropdown-landing">
+		    				<button type="button" class="btn btn-secondary dropdown-round">
+		    					<img class="dropdown-icon" src="./img/map-pin-icon.svg">г. Астана</button>
+		    				<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split dropdown-round-toggle" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+		      					<span class="sr-only">Toggle Dropdown</span>
+		    				</button>
+						    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+						      <a class="dropdown-item" href="#">г. Алматы</a>
+						      <a class="dropdown-item" href="#">г. Семей</a>
+						      <a class="dropdown-item" href="#">г. Шымкент</a>
+						      <a class="dropdown-item" href="#">г. Кокшетау</a>
+						    </div>
+		  				</div>
+		  			</div>
+				</div>
+				<div class="row">
+					<div class="m-2">Категория</div>
+				</div>
+				<div class="row">
+					<div class="m-2">Дата</div>
+				</div>
+
+				<div class="row justify-content-center">
+					<a class="btn main-btn" href="./map-next.html" id="search-btn">Искать!</a>
+				</div>
+				<div class="row">
+					<h5 class="m-2">Список событий и инициатив:</h5>
+				</div>
+				<div class="row">
+					<div class="card event-card m-2">
+						<div class="card-body">
+							<div class="card-color"></div>
+							<h5 class="card-title">Fading TSE</h5>
+							<h6 class="card-subtitle mb-3 text-muted">25 июня 2020, 19:00 — 20:00</h6>
+							<h6 class="card-text mb-1 text-muted">Категория: Лекция</h6>
+							<h6 class="card-text mb-3 text-muted">Адрес: 6638 Cackson St undefined Stockton</h6>
+							<p class="card-text">Тема: <b>“От султана до Нур-Султана: как началась история столицы?” Встреча с краеведом Асылбеком Алтыновым</b></p>
+							<a href="#" class="card-link text-muted">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="card event-card m-2">
+						<div class="card-body">
+							<div class="card-color"></div>
+							<h5 class="card-title">Fading TSE</h5>
+							<h6 class="card-subtitle mb-3 text-muted">25 июня 2020, 19:00 — 20:00</h6>
+							<h6 class="card-text mb-1 text-muted">Категория: Лекция</h6>
+							<h6 class="card-text mb-3 text-muted">Адрес: 6638 Cackson St undefined Stockton</h6>
+							<p class="card-text">Тема: <b>“От султана до Нур-Султана: как началась история столицы?” Встреча с краеведом Асылбеком Алтыновым</b></p>
+							<a href="#" class="card-link text-muted">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="card event-card m-2">
+						<div class="card-body">
+							<div class="card-color"></div>
+							<h5 class="card-title">Fading TSE</h5>
+							<h6 class="card-subtitle mb-3 text-muted">25 июня 2020, 19:00 — 20:00</h6>
+							<h6 class="card-text mb-1 text-muted">Категория: Лекция</h6>
+							<h6 class="card-text mb-3 text-muted">Адрес: 6638 Cackson St undefined Stockton</h6>
+							<p class="card-text">Тема: <b>“От султана до Нур-Султана: как началась история столицы?” Встреча с краеведом Асылбеком Алтыновым</b></p>
+							<a href="#" class="card-link text-muted">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-8 pr-0 pl-0">
+				<div id="mapid"></div>
+			</div>
+		</div>
 	</div>
+
+	
+
 
 
 
