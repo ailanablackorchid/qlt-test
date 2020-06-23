@@ -7164,7 +7164,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Arial", sans-serif;
-  font-size: 1rem;
   max-width: 100%;
   overflow-x: hidden; }
 
@@ -7291,6 +7290,9 @@ body {
 
 .event-card {
   border: none !important;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1), -4px -4px 12px rgba(228, 228, 228, 0.1);
   border-radius: 10px; }
   .event-card .card-color {
@@ -7302,9 +7304,88 @@ body {
     top: 0px;
     bottom: 0px; }
 
+.form-style {
+  width: 100%; }
+
+.search-with-icon {
+  position: relative;
+  width: 100%; }
+  .search-with-icon input[type=text] {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2), -4px -4px 12px rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    border: none;
+    padding: 12px 12px 12px 40px;
+    transition: .3s;
+    outline: none; }
+  .search-with-icon img {
+    position: absolute;
+    left: 10px;
+    top: 12px; }
+  .search-with-icon button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 24px;
+    background-color: #red;
+    outline: none; }
+
+.category-checkbox {
+  width: 100px;
+  display: inline-block;
+  margin: 10px auto;
+  text-align: center; }
+  .category-checkbox [type=checkbox] {
+    opacity: 0;
+    width: 0;
+    height: 0; }
+  .category-checkbox [type=checkbox] + .circle-color {
+    cursor: pointer; }
+  .category-checkbox [type=checkbox]:checked + .circle-color {
+    outline: 2px solid #f00;
+    opacity: 80%; }
+  .category-checkbox .circle-color {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin: auto; }
+    .category-checkbox .circle-color img {
+      padding: 12px; }
+
+.date-box input[type=date] {
+  background: #FFFFFF;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2), -4px -4px 12px rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  border: none;
+  padding: 12px 12px 12px 40px;
+  transition: .3s;
+  outline: none; }
+
+.form-check-label a {
+  text-align: center;
+  width: 90px;
+  margin: auto; }
+
+.red-color {
+  background-color: #C8372D; }
+
+.peach-color {
+  background-color: #FFAF8B; }
+
+.green-color {
+  background-color: #2DA688; }
+
+.blue-color {
+  background-color: #5986F3; }
+
+.lilac-color {
+  background-color: #EB8FCB; }
+
+.yellow-color {
+  background-color: #FDC96A; }
+
 @media (min-width: 576px) {
-  body {
-    font-size: 1.2rem; }
   .landing-label {
     font-size: 3rem; }
   .step-text-landing {
@@ -7317,8 +7398,6 @@ body {
     text-align: left; } }
 
 @media (min-width: 768px) {
-  body {
-    font-size: 1.4rem; }
   .landing-label {
     font-size: 3.5rem; }
   .landing-text {
@@ -7341,8 +7420,6 @@ body {
     right: -20vw; } }
 
 @media (min-width: 992px) {
-  body {
-    font-size: 1.6rem; }
   .landing-label {
     font-size: 4rem; }
   .back-img-landing {

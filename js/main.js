@@ -17,6 +17,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 // Markers on the map
 var marker = L.marker([51.111, 71.436]).addTo(mymap);
 
-marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+marker.bindPopup("<b>Fading TSE</b><br>25 июня 2020, 19:00 — 20:00").openPopup();
 
 var marker1 = L.marker([51.111, 71.438]).addTo(mymap);
