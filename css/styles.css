@@ -7385,6 +7385,52 @@ body {
 .yellow-color {
   background-color: #FDC96A; }
 
+.dark-orange-color {
+  background-color: #F06A2D; }
+
+.citation {
+  margin: 2rem;
+  border-radius: 10px;
+  padding: 30px;
+  width: 50%; }
+  .citation p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #fff; }
+  .citation p + .quotes {
+    color: #F06A2D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem; }
+  .citation p + .quotes-2nd {
+    text-align: right; }
+
+.heading-initiative .col-11 {
+  text-align: center; }
+  .heading-initiative .col-11 .circle-color {
+    vertical-align: top;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin: auto;
+    display: inline-block; }
+    .heading-initiative .col-11 .circle-color img {
+      padding: 12px;
+      color: #fff; }
+  .heading-initiative .col-11 .text {
+    display: inline-block; }
+    .heading-initiative .col-11 .text .heading-text {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+      margin: 2px auto; }
+    .heading-initiative .col-11 .text h6 {
+      color: #8C8C8C;
+      font-size: 1.1rem; }
+
+.display-inline-block {
+  display: inline-block; }
+
 @media (min-width: 576px) {
   .landing-label {
     font-size: 3rem; }
